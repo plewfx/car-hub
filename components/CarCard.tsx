@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import Image from "next/image";
 
-import { CarProps } from "@/types/CarProps";
+import { CarProps } from "@/types";
 
 import { calculateCarRent } from "@/utils";
 

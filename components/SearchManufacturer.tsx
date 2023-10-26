@@ -46,9 +46,9 @@ const SearchManufacturer = ({
           />
           <Transition
             as={Fragment}
-            Leave="transition ease-in duration-100"
-            LeaveFrom="opacity-100"
-            LeaveTo="opacity-0"
+            leave="transition ease-in duration-100"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
             afterLeave={() => setQuery("")}
           >
             <Combobox.Options className="absolute z-10 mt-1 w-full py-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
